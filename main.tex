@@ -1,0 +1,80 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.3in, top=0.3in, bottom=0.3in, right=0.3in, left=0.3in, paperwidth=8.5in, paperheight=11in]{geometry}
+\usepackage{titlesec}
+\pagestyle{empty}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries}
+  {}
+  {0em}
+  {}
+  [{\titlerule[0.8pt]}]
+
+\begin{document}
+
+\section*{%
+\begin{center}
+    \LARGE{John Doe}
+\end{center}%
+\begin{minipage}[t]{0.5\textwidth}
+    \begin{flushleft}
+        Phone: (123) 456-7890 \\
+        Email: john.doe@email.com \\
+    \end{flushleft}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+    \begin{flushright}
+        LinkedIn: linkedin.com/in/johndoe \\
+        GitHub: github.com/johndoe
+    \end{flushright}
+\end{minipage}%
+}
+
+\section*{Education}
+\textbf{University Name, City, State} \\
+\textbf{Degree}\\
+\textbf{Year} \\
+\textit{GPA: 3.8} \\
+Relevant Coursework
+
+\section*{Work Experience}
+\subsection*{Job Title 1 (Year--Year)}
+Company Name, City, State \\
+Description of responsibilities
+\begin{itemize}
+  \item Accomplishment statement 1.
+  \item Accomplishment statement 2.
+\end{itemize}
+
+\subsection*{Job Title 2 (Year--Year)}
+Company Name, City, State \\
+Description of responsibilities
+\begin{itemize}
+  \item Accomplishment statement 1.
+  \item Accomplishment statement 2.
+\end{itemize}
+
+\section*{Projects}
+\subsection*{Project Title 1 (Year)}
+Description, Tools or Technologies
+\begin{itemize}
+  \item Accomplishment statement 1.
+  \item Accomplishment statement 2.
+\end{itemize}
+
+\subsection*{Project Title 2 (Year)}
+Description, Tools or Technologies
+\begin{itemize}
+  \item Accomplishment statement 1.
+  \item Accomplishment statement 2.
+\end{itemize}
+
+\section*{Awards and Certifications}
+Year: Award or Certification Name, Issuing Organization, Description
+
+\section*{References}
+Available upon request.
+
+\end{document}
